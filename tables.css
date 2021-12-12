@@ -1,0 +1,32 @@
+table, th, td {
+    /* border-top: 2px solid red; */
+    /* border-collapse: collapse; */
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+}
+table {
+    width: 90%;
+    margin: auto;
+}
+thead {
+    color: red;
+}
+td {
+        /* height: 50px;
+    text-align: center; */
+    /* vertical-align: bottom;
+    td deki yazilari asagi dayamak yaslamak icin vertical-aling=bottom; */
+    padding: 10px;
+}
+td:hover {
+    background-color: yellow;
+    /* tek tek sari yapar */
+}
+tr:hover {
+    background-color: blue;
+    /* bu bir satiri mause üstüne gittiginde renklendirir */
+}
+tr:nth-child(even) {
+    background-color: gray;
+    /* tek olanlari arkasini renklendirir */
+}

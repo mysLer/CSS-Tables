@@ -1,0 +1,12 @@
+h1, p {
+    border: 1px solid gray;
+}
+span {
+    border: 3px solid red;
+    /* width: 500px; */
+    
+}
+#h2 {
+    /* display: none; */
+    visibility: hidden;
+}
