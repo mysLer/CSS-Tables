@@ -1,0 +1,22 @@
+#first {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 220px;
+    /* top: 0; */
+    display: inline-block;
+}
+#second {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}
+#third {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 110px;
+
+}

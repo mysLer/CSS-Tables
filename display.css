@@ -1,19 +1,23 @@
-/* h1, p {
+ h1, p {
     border: 1px solid gray;
 }
-span {
+ span {
     border: 3px solid red;
     /* width: 500px; */
     display: inline-block;
     /* inline elemetlere genislik vermek istiyorsak 'inline block' yapmaliyiz, 
-    width ile genislik veremiyoruz     */
-}
+    width ile genislik veremiyoruz    */
+
+
+ }
+    
+
 #h2 {
-    /* display: none; */
+    /* display: none;  */
     /* display none i actigimiyda 
-    head2 yi gizlemek icin kullaniyoruz klick ile acilabiliyor */
+    head2 yi gizlemek icin kullaniyoruz klick ile acilabiliyor  */
     visibility: hidden;
-} */
+
 
 * {
     color: red;
