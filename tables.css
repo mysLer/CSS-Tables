@@ -5,12 +5,15 @@ table, th, td {
     border-collapse: collapse;
 }
 table {
-    width: 90%;
+    width: 90%;   
+     /* 'tum sayfayi kaplamasi icin %100 olmasi gerek'  eger %100 yapilirsa margin vermeye gerek kalmiyor */
     margin: auto;
 }
 thead {
     color: red;
 }
+
+/* th - otomatik ortaya aldigi icin text-aling= center yapmaya gerek yok */
 td {
         /* height: 50px;
     text-align: center; */
