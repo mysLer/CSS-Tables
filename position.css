@@ -2,21 +2,45 @@
     background-color: red;
     width: 100px;
     height: 100px;
-    position: relative;
-    left: 220px;
+    /* position: relative;
+    left: 210px; */
+    /* kutulari saga sola hareket ettirmek icin önce position: relative; sonra da left: 100px gibi yada right:100px gibi degerler girilir hareket ettirilir */
     /* top: 0; */
-    display: inline-block;
+    /* display: inline-block; */
+    /* kutulari box lari hareket ettirmek icin yanyana almak icin 
+    önce display: inline block yapmamiz gerekiyor (istedigimiz butun kutulara),
+    bunu yaparsak kutular box lar yan yana yanyana  dizilir gelir */
+    /* position: absolute;
+    right: 15px
+    bu komutu verdigimizde ise bu kutuyu box i elementi , bagimsiz bir sekilde hareket ettirme imkani verir */
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    /* position: static;
+    eger statik yaparsak sol en ustte olmasi gereken yere gider */
+     
+}
+#container {
+    border: 1px solid gray;
+    width: 500px;
+    height: 500px;
+    position: relative;
 }
 #second {
     background-color: green;
     width: 100px;
     height: 100px;
+    /* display: inline-block;
+    position: relative;
+    right: 100px; */
 }
 #third {
     background-color: blue;
     width: 100px;
     height: 100px;
+    display: inline-block;
     position: relative;
-    left: 110px;
+    /* left: 100px; */
+
 
 }
